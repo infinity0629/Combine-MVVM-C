@@ -15,13 +15,13 @@ extension UINavigationController {
     
     public var willShowPublisher: AnyPublisher<(viewController: UIViewController, animated: Bool), Never> {
         let selector = #selector(UINavigationControllerDelegate.navigationController(_:willShow:animated:))
-       return delegateProxy.interceptSelectorPublisher(selector)
-           .map { ($0[1] as! UIViewController, $0[2] as! Bool) }
-           .eraseToAnyPublisher()
-   }
+        return delegateProxy.interceptSelectorPublisher(selector)
+            .map { ($0[1] as! UIViewController, $0[2] as! Bool) }
+            .eraseToAnyPublisher()
+    }
 
     public var didShowPublisher: AnyPublisher<(viewController: UIViewController, animated: Bool), Never> {
-         let selector = #selector(UINavigationControllerDelegate.navigationController(_:didShow:animated:))
+        let selector = #selector(UINavigationControllerDelegate.navigationController(_:didShow:animated:))
         return delegateProxy.interceptSelectorPublisher(selector)
             .map { ($0[1] as! UIViewController, $0[2] as! Bool) }
             .eraseToAnyPublisher()

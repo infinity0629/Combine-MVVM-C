@@ -36,6 +36,12 @@
 		2243B0292AFA0F32009F80A8 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243B0282AFA0F32009F80A8 /* View.swift */; };
 		2243B02B2AFA0FAD009F80A8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243B02A2AFA0FAD009F80A8 /* ViewModel.swift */; };
 		2243B02D2AFA1037009F80A8 /* ViewInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243B02C2AFA1037009F80A8 /* ViewInitializable.swift */; };
+		2243B0332AFA165A009F80A8 /* JSONEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243B0322AFA1659009F80A8 /* JSONEntity.swift */; };
+		2243B0352AFA1665009F80A8 /* Response+JSONEntityMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243B0342AFA1664009F80A8 /* Response+JSONEntityMapper.swift */; };
+		2243B0372AFA1D20009F80A8 /* PrimitiveSequence+JSONEntityMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243B0362AFA1D20009F80A8 /* PrimitiveSequence+JSONEntityMapper.swift */; };
+		2243B03D2AFA1FA6009F80A8 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243B03A2AFA1FA6009F80A8 /* CacheManager.swift */; };
+		2243B03E2AFA1FA6009F80A8 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243B03C2AFA1FA6009F80A8 /* NetworkClient.swift */; };
+		2243B0422AFA20B6009F80A8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243B0412AFA20B6009F80A8 /* API.swift */; };
 		7078BF301D7B2AD62EE26E3F /* Pods_Combine_MVVM_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303D411F810326C036046AC4 /* Pods_Combine_MVVM_C.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +77,12 @@
 		2243B0282AFA0F32009F80A8 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		2243B02A2AFA0FAD009F80A8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		2243B02C2AFA1037009F80A8 /* ViewInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInitializable.swift; sourceTree = "<group>"; };
+		2243B0322AFA1659009F80A8 /* JSONEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEntity.swift; sourceTree = "<group>"; };
+		2243B0342AFA1664009F80A8 /* Response+JSONEntityMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+JSONEntityMapper.swift"; sourceTree = "<group>"; };
+		2243B0362AFA1D20009F80A8 /* PrimitiveSequence+JSONEntityMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PrimitiveSequence+JSONEntityMapper.swift"; sourceTree = "<group>"; };
+		2243B03A2AFA1FA6009F80A8 /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		2243B03C2AFA1FA6009F80A8 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		2243B0412AFA20B6009F80A8 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		303D411F810326C036046AC4 /* Pods_Combine_MVVM_C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Combine_MVVM_C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		321434222EBC0F4189465F9D /* Pods-Combine-MVVM-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Combine-MVVM-C.release.xcconfig"; path = "Target Support Files/Pods-Combine-MVVM-C/Pods-Combine-MVVM-C.release.xcconfig"; sourceTree = "<group>"; };
 		DF41791CAB1902EE959658B8 /* Pods-Combine-MVVM-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Combine-MVVM-C.debug.xcconfig"; path = "Target Support Files/Pods-Combine-MVVM-C/Pods-Combine-MVVM-C.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				2243AFEB2AF9F9B0009F80A8 /* Common */,
+				2243B03F2AFA20B6009F80A8 /* Service */,
 				2243AFE92AF9E430009F80A8 /* Module */,
 				2243AFE52AF9E3CF009F80A8 /* AppDelegate */,
 				2243AFE62AF9E3F5009F80A8 /* Resource */,
@@ -171,6 +184,7 @@
 			children = (
 				2243B0142AF9FBC3009F80A8 /* MVVM-C */,
 				2243AFEC2AF9F9BD009F80A8 /* Nibless */,
+				2243B0382AFA1FA6009F80A8 /* Repository */,
 				2243B00C2AF9FAD9009F80A8 /* Pullable */,
 				2243B00E2AF9FADA009F80A8 /* Reusable */,
 				2243B0002AF9FA98009F80A8 /* String */,
@@ -270,6 +284,9 @@
 			isa = PBXGroup;
 			children = (
 				2243B0262AFA0DB4009F80A8 /* Entity.swift */,
+				2243B0322AFA1659009F80A8 /* JSONEntity.swift */,
+				2243B0342AFA1664009F80A8 /* Response+JSONEntityMapper.swift */,
+				2243B0362AFA1D20009F80A8 /* PrimitiveSequence+JSONEntityMapper.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -309,6 +326,47 @@
 				2243B0242AFA0907009F80A8 /* UINavigationController+Combine.swift */,
 			);
 			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		2243B0382AFA1FA6009F80A8 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2243B0392AFA1FA6009F80A8 /* Persistence */,
+				2243B03B2AFA1FA6009F80A8 /* Remote */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2243B0392AFA1FA6009F80A8 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				2243B03A2AFA1FA6009F80A8 /* CacheManager.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		2243B03B2AFA1FA6009F80A8 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				2243B03C2AFA1FA6009F80A8 /* NetworkClient.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		2243B03F2AFA20B6009F80A8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2243B0402AFA20B6009F80A8 /* RemoteAPI */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2243B0402AFA20B6009F80A8 /* RemoteAPI */ = {
+			isa = PBXGroup;
+			children = (
+				2243B0412AFA20B6009F80A8 /* API.swift */,
+			);
+			path = RemoteAPI;
 			sourceTree = "<group>";
 		};
 		74180381C5230914BCBCDACA /* Frameworks */ = {
@@ -444,6 +502,7 @@
 			files = (
 				2243B0132AF9FADB009F80A8 /* UITableViewCell+Reusable.swift in Sources */,
 				2243AFF72AF9F9BD009F80A8 /* NiblessNavigationController.swift in Sources */,
+				2243B0332AFA165A009F80A8 /* JSONEntity.swift in Sources */,
 				2243B02D2AFA1037009F80A8 /* ViewInitializable.swift in Sources */,
 				2243B0212AFA06E8009F80A8 /* ModalNavigationRouter.swift in Sources */,
 				2243B00A2AF9FA99009F80A8 /* DeviceModel.swift in Sources */,
@@ -452,18 +511,23 @@
 				2243B02B2AFA0FAD009F80A8 /* ViewModel.swift in Sources */,
 				2243B0082AF9FA99009F80A8 /* UIApplication+SafeArea.swift in Sources */,
 				2243B01F2AFA06E8009F80A8 /* Router.swift in Sources */,
+				2243B03D2AFA1FA6009F80A8 /* CacheManager.swift in Sources */,
 				2243B0072AF9FA99009F80A8 /* UIApplication+Run.swift in Sources */,
 				2243B0062AF9FA99009F80A8 /* UIImage+Color.swift in Sources */,
 				2243B01E2AFA06E8009F80A8 /* NavigationRouter.swift in Sources */,
 				2243AFF62AF9F9BD009F80A8 /* NiblessTabBarController.swift in Sources */,
 				2243AFF52AF9F9BD009F80A8 /* NiblessTableViewCell.swift in Sources */,
+				2243B0352AFA1665009F80A8 /* Response+JSONEntityMapper.swift in Sources */,
 				2243B0202AFA06E8009F80A8 /* Coordinator.swift in Sources */,
 				2243B0112AF9FADA009F80A8 /* Pullable.swift in Sources */,
 				2243AFF42AF9F9BD009F80A8 /* NiblessView.swift in Sources */,
 				2243AFD22AF9E3A8009F80A8 /* AppDelegate.swift in Sources */,
+				2243B0422AFA20B6009F80A8 /* API.swift in Sources */,
 				2243B0122AF9FADB009F80A8 /* Reusable.swift in Sources */,
+				2243B03E2AFA1FA6009F80A8 /* NetworkClient.swift in Sources */,
 				2243AFF32AF9F9BD009F80A8 /* NiblessCollectionViewCell.swift in Sources */,
 				2243B0252AFA0907009F80A8 /* UINavigationController+Combine.swift in Sources */,
+				2243B0372AFA1D20009F80A8 /* PrimitiveSequence+JSONEntityMapper.swift in Sources */,
 				2243B0272AFA0DB4009F80A8 /* Entity.swift in Sources */,
 				2243AFF82AF9F9BD009F80A8 /* NiblessViewController.swift in Sources */,
 				2243B0292AFA0F32009F80A8 /* View.swift in Sources */,
