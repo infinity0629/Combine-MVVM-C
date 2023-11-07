@@ -1,0 +1,139 @@
+PODS:
+  - Alamofire (5.8.1)
+  - Cache (6.0.0)
+  - CombineCocoa (0.4.1)
+  - CombineDataSources (0.2.5)
+  - CombineExt (1.8.0)
+  - CryptoSwift (1.8.0)
+  - IQKeyboardManagerSwift (6.5.16)
+  - KeychainSwift (20.0.0)
+  - Kingfisher (7.9.1)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.7.5)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Combine (15.0.0):
+    - Moya/Core
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - MoyaSugar (1.3.3):
+    - MoyaSugar/Core (= 1.3.3)
+  - MoyaSugar/Core (1.3.3):
+    - Moya (>= 14.0.0-beta.2)
+  - R.swift (7.3.2)
+  - SnapKit (5.6.0)
+  - SQLite.swift (0.14.1):
+    - SQLite.swift/standard (= 0.14.1)
+  - SQLite.swift/standard (0.14.1)
+  - SwiftDate (6.3.1)
+  - SwifterSwift (6.0.0):
+    - SwifterSwift/AppKit (= 6.0.0)
+    - SwifterSwift/Combine (= 6.0.0)
+    - SwifterSwift/CoreAnimation (= 6.0.0)
+    - SwifterSwift/CoreGraphics (= 6.0.0)
+    - SwifterSwift/CoreLocation (= 6.0.0)
+    - SwifterSwift/CryptoKit (= 6.0.0)
+    - SwifterSwift/Dispatch (= 6.0.0)
+    - SwifterSwift/Foundation (= 6.0.0)
+    - SwifterSwift/HealthKit (= 6.0.0)
+    - SwifterSwift/MapKit (= 6.0.0)
+    - SwifterSwift/SceneKit (= 6.0.0)
+    - SwifterSwift/SpriteKit (= 6.0.0)
+    - SwifterSwift/StoreKit (= 6.0.0)
+    - SwifterSwift/SwiftStdlib (= 6.0.0)
+    - SwifterSwift/UIKit (= 6.0.0)
+    - SwifterSwift/WebKit (= 6.0.0)
+  - SwifterSwift/AppKit (6.0.0)
+  - SwifterSwift/Combine (6.0.0)
+  - SwifterSwift/CoreAnimation (6.0.0)
+  - SwifterSwift/CoreGraphics (6.0.0)
+  - SwifterSwift/CoreLocation (6.0.0)
+  - SwifterSwift/CryptoKit (6.0.0)
+  - SwifterSwift/Dispatch (6.0.0)
+  - SwifterSwift/Foundation (6.0.0)
+  - SwifterSwift/HealthKit (6.0.0)
+  - SwifterSwift/MapKit (6.0.0)
+  - SwifterSwift/SceneKit (6.0.0)
+  - SwifterSwift/SpriteKit (6.0.0)
+  - SwifterSwift/StoreKit (6.0.0)
+  - SwifterSwift/SwiftStdlib (6.0.0)
+  - SwifterSwift/UIKit (6.0.0)
+  - SwifterSwift/WebKit (6.0.0)
+  - SwiftMessages (9.0.9):
+    - SwiftMessages/App (= 9.0.9)
+  - SwiftMessages/App (9.0.9)
+  - SwiftyJSON (5.0.1)
+  - Then (3.0.0)
+
+DEPENDENCIES:
+  - Cache (~> 6.0.0)
+  - CombineCocoa (~> 0.4.1)
+  - CombineDataSources (~> 0.2.5)
+  - CombineExt (~> 1.8.0)
+  - CryptoSwift (~> 1.8.0)
+  - IQKeyboardManagerSwift (~> 6.5.16)
+  - KeychainSwift (~> 20.0)
+  - Kingfisher (~> 7.9.1)
+  - MBProgressHUD (~> 1.2.0)
+  - MJRefresh (~> 3.7.5)
+  - Moya/Combine (~> 15.0.0)
+  - MoyaSugar (~> 1.3.3)
+  - R.swift (~> 7.3.2)
+  - SnapKit (~> 5.6.0)
+  - SQLite.swift (~> 0.14.1)
+  - SwiftDate (~> 6.3.1)
+  - SwifterSwift (~> 6.0.0)
+  - SwiftMessages (~> 9.0.8)
+  - SwiftyJSON (~> 5.0.1)
+  - Then (~> 3.0.0)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Alamofire
+    - Cache
+    - CombineCocoa
+    - CombineDataSources
+    - CombineExt
+    - CryptoSwift
+    - IQKeyboardManagerSwift
+    - KeychainSwift
+    - Kingfisher
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - MoyaSugar
+    - R.swift
+    - SnapKit
+    - SQLite.swift
+    - SwiftDate
+    - SwifterSwift
+    - SwiftMessages
+    - SwiftyJSON
+    - Then
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  Cache: 4ca7e00363fca5455f26534e5607634c820ffc2d
+  CombineCocoa: e5210dbfb480ff251078929459ac17e750e7af1d
+  CombineDataSources: dcbc3b06a038ffdf620b3b4533d3ecaf76ca6a2e
+  CombineExt: c4daa97ef75754d8ef319bd79edeef82652f3eea
+  CryptoSwift: 52aaf3fce7337552863b1d952e408085f0e65030
+  IQKeyboardManagerSwift: 12d89768845bb77b55cc092ecc2b1f9370f06b76
+  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
+  Kingfisher: 1d14e9f59cbe19389f591c929000332bf70efd32
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  MoyaSugar: 63390c557e038c087dc4bcc8a9f9fda69647ce43
+  R.swift: 0af0d882f49f03711415cb4e5215daa977d8a480
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SQLite.swift: 2992550ebf3c5b268bf4352603e3df87d2a4ed72
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
+  SwifterSwift: 66843dc594f8fb890f5543c22545921d44acc004
+  SwiftMessages: 1a23aef303fa7bb26ad802880746cf8358e378fe
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+
+PODFILE CHECKSUM: c87d8aeca01d0694cdd850ce7b0f446d42db9d22
+
+COCOAPODS: 1.13.0

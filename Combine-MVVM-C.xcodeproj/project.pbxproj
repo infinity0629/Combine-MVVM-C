@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2243AFD22AF9E3A8009F80A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243AFD12AF9E3A8009F80A8 /* AppDelegate.swift */; };
+		2243AFDB2AF9E3AA009F80A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2243AFDA2AF9E3AA009F80A8 /* Assets.xcassets */; };
+		2243AFDE2AF9E3AA009F80A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2243AFDC2AF9E3AA009F80A8 /* LaunchScreen.storyboard */; };
+		7078BF301D7B2AD62EE26E3F /* Pods_Combine_MVVM_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303D411F810326C036046AC4 /* Pods_Combine_MVVM_C.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2243AFCE2AF9E3A8009F80A8 /* Combine-MVVM-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Combine-MVVM-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2243AFD12AF9E3A8009F80A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2243AFDA2AF9E3AA009F80A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2243AFDD2AF9E3AA009F80A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2243AFDF2AF9E3AA009F80A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303D411F810326C036046AC4 /* Pods_Combine_MVVM_C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Combine_MVVM_C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		321434222EBC0F4189465F9D /* Pods-Combine-MVVM-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Combine-MVVM-C.release.xcconfig"; path = "Target Support Files/Pods-Combine-MVVM-C/Pods-Combine-MVVM-C.release.xcconfig"; sourceTree = "<group>"; };
+		DF41791CAB1902EE959658B8 /* Pods-Combine-MVVM-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Combine-MVVM-C.debug.xcconfig"; path = "Target Support Files/Pods-Combine-MVVM-C/Pods-Combine-MVVM-C.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2243AFCB2AF9E3A8009F80A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7078BF301D7B2AD62EE26E3F /* Pods_Combine_MVVM_C.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2243AFC52AF9E3A8009F80A8 = {
+			isa = PBXGroup;
+			children = (
+				2243AFD02AF9E3A8009F80A8 /* Combine-MVVM-C */,
+				2243AFCF2AF9E3A8009F80A8 /* Products */,
+				F89A18A3058A88EB28304BE9 /* Pods */,
+				74180381C5230914BCBCDACA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2243AFCF2AF9E3A8009F80A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2243AFCE2AF9E3A8009F80A8 /* Combine-MVVM-C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2243AFD02AF9E3A8009F80A8 /* Combine-MVVM-C */ = {
+			isa = PBXGroup;
+			children = (
+				2243AFE92AF9E430009F80A8 /* Module */,
+				2243AFE52AF9E3CF009F80A8 /* AppDelegate */,
+				2243AFE62AF9E3F5009F80A8 /* Resource */,
+				2243AFE82AF9E411009F80A8 /* Supporting Files */,
+			);
+			path = "Combine-MVVM-C";
+			sourceTree = "<group>";
+		};
+		2243AFE52AF9E3CF009F80A8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2243AFD12AF9E3A8009F80A8 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2243AFE62AF9E3F5009F80A8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2243AFE72AF9E402009F80A8 /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2243AFE72AF9E402009F80A8 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				2243AFDA2AF9E3AA009F80A8 /* Assets.xcassets */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		2243AFE82AF9E411009F80A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2243AFDF2AF9E3AA009F80A8 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2243AFE92AF9E430009F80A8 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				2243AFEA2AF9E43A009F80A8 /* Launch */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		2243AFEA2AF9E43A009F80A8 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				2243AFDC2AF9E3AA009F80A8 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		74180381C5230914BCBCDACA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				303D411F810326C036046AC4 /* Pods_Combine_MVVM_C.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F89A18A3058A88EB28304BE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF41791CAB1902EE959658B8 /* Pods-Combine-MVVM-C.debug.xcconfig */,
+				321434222EBC0F4189465F9D /* Pods-Combine-MVVM-C.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2243AFCD2AF9E3A8009F80A8 /* Combine-MVVM-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2243AFE22AF9E3AA009F80A8 /* Build configuration list for PBXNativeTarget "Combine-MVVM-C" */;
+			buildPhases = (
+				7465B62A41080BAD35822500 /* [CP] Check Pods Manifest.lock */,
+				2243AFCA2AF9E3A8009F80A8 /* Sources */,
+				2243AFCB2AF9E3A8009F80A8 /* Frameworks */,
+				2243AFCC2AF9E3A8009F80A8 /* Resources */,
+				BDCAEF94AD18993B6553C914 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Combine-MVVM-C";
+			productName = "Combine-MVVM-C";
+			productReference = 2243AFCE2AF9E3A8009F80A8 /* Combine-MVVM-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2243AFC62AF9E3A8009F80A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2243AFCD2AF9E3A8009F80A8 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2243AFC92AF9E3A8009F80A8 /* Build configuration list for PBXProject "Combine-MVVM-C" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2243AFC52AF9E3A8009F80A8;
+			productRefGroup = 2243AFCF2AF9E3A8009F80A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2243AFCD2AF9E3A8009F80A8 /* Combine-MVVM-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2243AFCC2AF9E3A8009F80A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2243AFDE2AF9E3AA009F80A8 /* LaunchScreen.storyboard in Resources */,
+				2243AFDB2AF9E3AA009F80A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7465B62A41080BAD35822500 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Combine-MVVM-C-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDCAEF94AD18993B6553C914 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Combine-MVVM-C/Pods-Combine-MVVM-C-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Combine-MVVM-C/Pods-Combine-MVVM-C-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Combine-MVVM-C/Pods-Combine-MVVM-C-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2243AFCA2AF9E3A8009F80A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2243AFD22AF9E3A8009F80A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2243AFDC2AF9E3AA009F80A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2243AFDD2AF9E3AA009F80A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2243AFE02AF9E3AA009F80A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Combine-MVVM-C/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2243AFE12AF9E3AA009F80A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Combine-MVVM-C/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2243AFE32AF9E3AA009F80A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF41791CAB1902EE959658B8 /* Pods-Combine-MVVM-C.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6962FWAKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Combine-MVVM-C/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.infinity.Combine-MVVM-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2243AFE42AF9E3AA009F80A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 321434222EBC0F4189465F9D /* Pods-Combine-MVVM-C.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6962FWAKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Combine-MVVM-C/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.infinity.Combine-MVVM-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2243AFC92AF9E3A8009F80A8 /* Build configuration list for PBXProject "Combine-MVVM-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2243AFE02AF9E3AA009F80A8 /* Debug */,
+				2243AFE12AF9E3AA009F80A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2243AFE22AF9E3AA009F80A8 /* Build configuration list for PBXNativeTarget "Combine-MVVM-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2243AFE32AF9E3AA009F80A8 /* Debug */,
+				2243AFE42AF9E3AA009F80A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2243AFC62AF9E3A8009F80A8 /* Project object */;
+}
