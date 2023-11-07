@@ -17,20 +17,20 @@ class AppDelegate: UIResponder {
     
     lazy var window: UIWindow? = UIWindow(frame: UIScreen.main.bounds)
     lazy var router = AppDelegateRouter(window: window!)
-//    lazy var guideCoordinator = GuideCoordinator(router: router)
-//    lazy var mainCoordinator = MainCoordinator(router: router)
+    lazy var guideCoordinator = GuideCoordinator(router: router)
+    lazy var mainCoordinator = MainCoordinator(router: router)
 }
 
 extension AppDelegate {
     
     func setCoordinator(_ type: RootCoordinator) {
-//        switch type {
-//        case .guide:
-//            guideCoordinator.start()
-//        case .main:
-//            mainCoordinator.start()
-//            UIApplication.alreadyRun()
-//        }
+        switch type {
+        case .guide:
+            guideCoordinator.start()
+        case .main:
+            mainCoordinator.start()
+            UIApplication.alreadyRun()
+        }
     }
 }
 
